@@ -15,6 +15,8 @@ The pinout between the E32 and USB-to-Serial Converter is as follows:
 | M0            | DTR |
 | M1            | RTS |
 | AUX           | CTS |
+| RX            | TX  |
+| TX            | RX  |
 
 ## Running the tests
 
