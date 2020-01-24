@@ -253,8 +253,9 @@ class Transceiver(object):
         '''
         Blocks execution of code until device is ready.
         '''
-        while(not self.is_available):
-            continue
+        # while(not self.is_available):
+        #     continue
+        pass
 
     def _fininalize_initialization(self):
         # Default starting mode is transmission mode
